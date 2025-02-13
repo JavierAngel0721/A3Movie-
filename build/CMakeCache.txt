@@ -319,6 +319,15 @@ FETCHCONTENT_UPDATES_DISCONNECTED_CATCH2:BOOL=OFF
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
 
+//Value Computed by CMake
+MatrixCalc_BINARY_DIR:STATIC=C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A3Movie-/build
+
+//Value Computed by CMake
+MatrixCalc_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+MatrixCalc_SOURCE_DIR:STATIC=C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A3Movie-
+
 
 ########################
 # INTERNAL cache entries

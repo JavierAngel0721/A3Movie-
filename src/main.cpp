@@ -1,7 +1,7 @@
 //main.cpp
 #include <catch2/catch.hpp>
 
-#include "movie.h"
+#include "Movie.h"
 #include "movie_factory.h"
 #include <iostream>
 #include <vector>
