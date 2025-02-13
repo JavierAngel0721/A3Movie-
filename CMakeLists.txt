@@ -4,7 +4,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 project(A3Movie)
 
 # Include directories
-include_directories(include)
+include_directories(${CMAKE_SOURCE_DIR}/include)
 
 # Source files for the main executable
 set(SOURCES
