@@ -27,7 +27,7 @@ vector<Movie*> CreateMovies(
   //Vector for the pointers
   vector<Movie*> movies; 
 
-  int size = titles.size();
+  size_t size = titles.size();
 
   if (directors.size() != size || runtimes.size() != size || id.size() != size || rating.size() != size) {
     throw std::invalid_argument("Input vectors must have the same length");
