@@ -10,3 +10,22 @@
  return 
    vector of pointers of Movie objects
  */
+
+#ifndef MOVIE_FACTORY
+#define MOVIE_FACTORY
+#include <vector>
+#include "Movie.h"
+#include <string>
+
+
+using namespace std;
+
+//Function Declaration for CreateMovies
+vector<Movie*> CreateMovies(
+  const vector<string>& titles, 
+  const vector<string>& directors, 
+  const vector<int>& runtimes,
+  const vector<double>& rating, 
+  const vector<int>& id);
+
+#endif

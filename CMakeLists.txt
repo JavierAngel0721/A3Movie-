@@ -1,19 +1,18 @@
 cmake_minimum_required(VERSION 3.10)
-project(A3Movie)
-
 set(CMAKE_CXX_STANDARD 17)
+project(A3Movie)
 
 # Include directories
 include_directories(include)
 
-# Source files for the main executable
+# Source files for the main executable (including main.cpp only for the main app)
 set(SOURCES
     src/movie.cpp
-    src/main.cpp
     src/movie_factory.cpp
+    src/main.cpp  # This file should only go in the main executable (not tests)
 )
 
-# Add the main executable
+# Add the main executable (A3Movie)
 add_executable(A3Movie ${SOURCES})
 
 # Add Catch2 using FetchContent
@@ -25,20 +24,21 @@ FetchContent_Declare(
     GIT_TAG v2.13.10
 )
 
-
 FetchContent_MakeAvailable(catch2)
 
 # Include Catch2's directory for the test executable
 include_directories(${catch2_SOURCE_DIR}/single_include)
 
-# Add the test executable with a different name to avoid conflicts
-add_executable(A3MovieTests test/test.cpp src/main.cpp)
+# Add the test executable (A3MovieTests)
+add_executable(A3MovieTests test/test.cpp src/movie.cpp src/movie_factory.cpp)
 
-# Link Catch2 to the test executable, NOT the main executable
-target_link_libraries(A3MovieTests PRIVATE Catch2::Catch2)
+# Link Catch2 to the test executable (don't link it with A3Movie)
+target_link_libraries(A3MovieTests Catch2::Catch2)
 
 # Enable testing
 enable_testing()
-
-# Automatically register Catch2 tests with CTest
 add_test(NAME A3MovieTests COMMAND A3MovieTests)
+
+
+
+
