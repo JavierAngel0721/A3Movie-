@@ -22,8 +22,8 @@ vector<Movie*> CreateMovies(
   const vector<string>& titles, 
   const vector<string>& directors, 
   const vector<int>& runtimes,
-  const vector<double>& rating, 
-  const vector<int>& id){
+  const vector<int>& id,
+  const vector<double>& rating){
   //Vector for the pointers
   vector<Movie*> movies; 
 
@@ -34,7 +34,7 @@ vector<Movie*> CreateMovies(
   }
 
   // Loop through the vectors and create Movie objects
-  for (int i = 0; i < size; ++i) {
+  for (size_t i = 0; i < size; ++i) {
     Movie* newMovie = new Movie(titles[i], directors[i], runtimes[i], id[i], rating[i]);
     movies.push_back(newMovie);  
   }

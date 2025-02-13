@@ -7,7 +7,7 @@ Movie::Movie(std::string t, std::string d, int r, int i, double rate)
   if (director.empty() || title.empty()) {
     throw std::invalid_argument("Director name cannot be empty");
   }
-  if(rating > 10 || rating < 0){
+  if(rating > 10.0 || rating < 0.0){
     throw std::invalid_argument("Rating must be between 0-10");
   }
 

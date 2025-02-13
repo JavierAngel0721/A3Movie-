@@ -25,7 +25,7 @@ vector<Movie*> CreateMovies(
   const vector<string>& titles, 
   const vector<string>& directors, 
   const vector<int>& runtimes,
-  const vector<double>& rating, 
-  const vector<int>& id);
+  const vector<int>& id,
+  const vector<double>& rating);
 
 #endif

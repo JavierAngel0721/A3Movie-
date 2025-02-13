@@ -40,7 +40,7 @@ int main() {
   std::vector<int> ids{1, 2, 3, 4, 5};
   std::vector<double> ratings{9.1, 10, 10, 8.8, 8.9};
 
-  std::vector<Movie*> movies = CreateMovies(titles, directors, runtimes, ratings, ids);
+  std::vector<Movie*> movies = CreateMovies(titles, directors, runtimes, ids, ratings);
   Movie* highest_rated = FindHighestRatedMovie(movies);
   double average_runtime = CalculateAverageRuntime(movies);
 
