@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Shrek\OneDrive\Documents\Spring_2025\ECE 3574 (Applied Software Design)\A3Movie-\build\_deps\catch2-subbuild\CMakeFiles\5917566a9ec29d2fe118737a56cd6506\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AA614B6F-8439-3F69-9A80-73AEC7C4FA7C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

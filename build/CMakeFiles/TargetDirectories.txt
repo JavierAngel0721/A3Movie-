@@ -1,0 +1,7 @@
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A3Movie-/build/CMakeFiles/A3Movie.dir
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A3Movie-/build/CMakeFiles/A3MovieTests.dir
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A3Movie-/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A3Movie-/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A3Movie-/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A3Movie-/build/_deps/catch2-build/CMakeFiles/RUN_TESTS.dir
+C:/Users/Shrek/OneDrive/Documents/Spring_2025/ECE 3574 (Applied Software Design)/A3Movie-/build/_deps/catch2-build/CMakeFiles/ALL_BUILD.dir
